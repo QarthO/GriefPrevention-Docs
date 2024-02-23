@@ -52,12 +52,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      defaultMode: 'dark',
+      image: 'img/gp-logo-wide',
       navbar: {
         title: 'GriefPrevention',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'GriefPrevention Logo',
           src: 'img/gp-logo-icon.png',
         },
         items: [
@@ -150,7 +150,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} GriefPrevention. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GriefPrevention | Built with Docusaurus`,
       },
       prism: {
         theme: prismThemes.github,
