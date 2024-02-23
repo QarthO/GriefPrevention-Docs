@@ -23,7 +23,7 @@ const config = {
   organizationName: 'GriefPrevention', // Usually your GitHub org/user name.
   projectName: 'GriefPrevention', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -68,7 +68,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: '/faq',
+            href: '/blog',
             label: 'FAQ',
             position: 'left'
           },
