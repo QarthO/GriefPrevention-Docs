@@ -8,20 +8,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'GriefPrevention',
+  tagline: 'The self-service anti-griefing plugin for Minecraft servers since 2011',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://grief-prevention-docs.vercel.app/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'GriefPrevention', // Usually your GitHub org/user name.
+  projectName: 'GriefPrevention', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -41,17 +41,6 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,23 +55,47 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'GriefPrevention',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/gp-logo-icon.png',
         },
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: '/faq',
+            label: 'FAQ',
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/GriefPrevention/GriefPrevention/releases/',
+            label: 'Downloads',
+            position: 'right'
+          },
+          {
+            href: 'https://www.spigotmc.org/resources/griefprevention.1884/',
+            className: "header-icon-link header-spigot-link",
+            position: "right",
+          },
+          {
+            href: 'https://modrinth.com/plugin/griefprevention',
+            className: "header-icon-link header-modrinth-link",
+            position: "right",
+          },
+          {
+            href: 'https://r.griefprevention.com/dumcord/',
+            className: "header-icon-link header-discord-link",
+            position: "right",
+          },
+          {
+            href: 'https://github.com/GriefPrevention',
+            className: "header-icon-link header-github-link",
+            position: "right",
           },
         ],
       },
@@ -102,16 +115,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'IRC Chat',
+                href: 'https://griefprevention.com/chat/',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://r.griefprevention.com/dumcord/',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub Discussions',
+                href: 'https://github.com/GriefPrevention/GriefPrevention/discussions',
               },
             ],
           },
@@ -119,17 +132,25 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'BukkitDev',
+                href: 'https://dev.bukkit.org/projects/grief-prevention',
+              },
+              {
+                label: 'Spigot',
+                href: 'https://www.spigotmc.org/resources/griefprevention.1884/',
+              },
+              {
+                label: 'Modrinth',
+                href: 'https://modrinth.com/plugin/griefprevention',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/GriefPrevention',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} GriefPrevention. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
