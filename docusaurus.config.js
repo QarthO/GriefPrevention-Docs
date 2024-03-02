@@ -53,6 +53,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       defaultMode: 'dark',
+      respectPrefersColorScheme: true,
       image: 'img/gp-logo-wide',
       navbar: {
         title: 'GriefPrevention',
@@ -74,22 +75,26 @@ const config = {
           },
           {
             href: 'https://www.spigotmc.org/resources/griefprevention.1884/',
-            className: "header-icon-link header-spigot-link",
+            // className: "header-icon-link header-spigot-link",
+            label: "Spigot",
             position: "right",
           },
           {
             href: 'https://modrinth.com/plugin/griefprevention',
-            className: "header-icon-link header-modrinth-link",
+            // className: "header-icon-link header-modrinth-link",
+            label: "Modrinth",
             position: "right",
           },
           {
             href: 'https://r.griefprevention.com/dumcord/',
-            className: "header-icon-link header-discord-link",
+            // className: "header-icon-link header-discord-link",
+            label: "Discord",
             position: "right",
           },
           {
             href: 'https://github.com/GriefPrevention',
-            className: "header-icon-link header-github-link",
+            // className: "header-icon-link header-github-link",
+            label: "GitHub",
             position: "right",
           },
         ],
@@ -101,7 +106,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'WIP',
                 to: '/docs/intro',
               },
             ],
