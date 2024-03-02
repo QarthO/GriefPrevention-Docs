@@ -68,11 +68,6 @@ const config = {
             label: 'Docs',
           },
           {
-            href: '/blog',
-            label: 'FAQ',
-            position: 'left'
-          },
-          {
             href: 'https://github.com/GriefPrevention/GriefPrevention/releases/',
             label: 'Downloads',
             position: 'right'

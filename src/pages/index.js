@@ -25,7 +25,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      // title={`${siteConfig.title}`}
       description="The self-service anti-griefing plugin for Minecraft servers since 2011 <head />">
       <HomepageHeader />
       <main>

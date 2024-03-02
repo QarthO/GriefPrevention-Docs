@@ -8,28 +8,24 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+        GriefPrevention is designed to be as simple as possible to use, both for the players and to setup. The default values are perfect for most servers, however GriefPrevention is highly configuarable and this page attempts to detail the available configuations. </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Supported Platforms',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        GriefPrevention is built to support Spigot, Paper, Purpur, and any other server implementing the Bukkit API. Older versions of GriefPrevention can be found on BukkitDev. *Note that these older versions are not supported
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Need Help?',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        If this page doesn't have the information you're looking for then feel free to use our IRC or Discord channels to ask for support. If you come across a potential bug or exploit, then make an issue on our GitHub
       </>
     ),
   },
