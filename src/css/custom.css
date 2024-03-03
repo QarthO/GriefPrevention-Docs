@@ -99,6 +99,7 @@
 }
 
 .hero__logo {
-  max-width: 750px;
+  max-width: 850px;
   min-width: 200px;
+  margin: auto;
 }
