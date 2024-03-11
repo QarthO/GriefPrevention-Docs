@@ -52,8 +52,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      defaultMode: 'dark',
-      respectPrefersColorScheme: true,
+      colorMode: {
+        defaultMode: 'dark',
+        // disableSwitch: true,
+        respectPrefersColorScheme: true,
+      },
       image: 'img/gp-logo-wide',
       navbar: {
         title: 'GriefPrevention',
